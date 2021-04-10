@@ -2,7 +2,7 @@
     "UserDetails": [{
             "UserName": "Mark",
             "Password": "mark123",
-            "UserId": "1",
+            "UserId": 1,
             "MobileNumber": "9876543210",
             "OTP": "213",
             "CreatedDate": "10-04-2021",
@@ -12,7 +12,7 @@
         {
             "UserName": "Mary",
             "Password": "mary321",
-            "UserId": "2",
+            "UserId": 2,
             "MobileNumber": "0123456789",
             "OTP": "123",
             "CreatedDate": "10-04-2021",
