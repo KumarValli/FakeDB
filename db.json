@@ -2,7 +2,7 @@
     "UserDetails": [{
             "UserName": "Mark",
             "Password": "mark123",
-            "ID": 1,
+            "id": 1,
             "MobileNumber": "9876543210",
             "OTP": "213",
             "CreatedDate": "10-04-2021",
@@ -12,12 +12,64 @@
         {
             "UserName": "Mary",
             "Password": "mary321",
-            "ID": 2,
+            "id": 2,
             "MobileNumber": "0123456789",
             "OTP": "123",
             "CreatedDate": "10-04-2021",
             "UserFlag": 1,
             "Gender": "Male"
         }
-    ]
+    ],
+    "CompanyDetails": [{
+            "CompanyName": "HMart",
+            "CompanyID": 1001,
+            "TimeToAllow": 2,
+            "NotifyBefore": 1,
+            "NPeopleToAllow": 20,
+            "NPeopleExisting": 0,
+            "CompanyFlag": 1,
+            "CreatedDate": "10-04-2021"
+        },
+        {
+            "CompanyName": "RMart",
+            "CompanyID": 1002,
+            "TimeToAllow": 2,
+            "NotifyBefore": 1,
+            "NPeopleToAllow": 20,
+            "NPeopleExisting": 10,
+            "CompanyFlag": 1,
+            "CreatedDate": "10-04-2021"
+        },
+        {
+            "CompanyName": "Ymart",
+            "CompanyID": 1003,
+            "TimeToAllow": 2,
+            "NotifyBefore": 1,
+            "NPeopleToAllow": 20,
+            "NPeopleExisting": 19,
+            "CompanyFlag": 1,
+            "CreatedDate": "10-04-2021"
+        },
+        {
+            "CompanyName": "Zmart",
+            "CompanyID": 1004,
+            "TimeToAllow": 2,
+            "NotifyBefore": 1,
+            "NPeopleToAllow": 20,
+            "NPeopleExisting": 20,
+            "CompanyFlag": 1,
+            "CreatedDate": "10-04-2021"
+        }
+
+    ],
+    "SessionDetails": [{
+        "UserName": "Mark",
+        "MobileNumber": "0123456789",
+        "CompanyName": "Ymart",
+        "isAllowed": true,
+        "AllowedDate": "10-04-2021",
+        "SessionId": "10042021Ymart"
+
+    }]
+
 }
